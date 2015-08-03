@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+html(lang="en")
+head
+  meta(charset="UTF-8")
+  title Simple Calendar
+  link(rel="stylesheet", href="dist/style.css")
+body
+
+  .container
+    .calendar
+      header#change-year
+        h1#year 2015
+        a#prev-year.btn-prev <
+        a#next-year.btn-next >
+      header#change-month
+        h2#month September
+        a#prev-month.btn-prev.btn--month <
+        a#next-month.btn-next.btn--month >
+      table
+        thead
+          tr#weekdays
+        tbody#calendar
+  script(src="dist/script.js")

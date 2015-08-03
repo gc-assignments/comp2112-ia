@@ -1,0 +1,12 @@
+{
+  "firebase": "simple-cal",
+  "public": ".",
+  "ignore": [
+    ".DS_Store",
+    ".git/",
+    "firebase.json",
+    "**/.*",
+    "**/node_modules/**",
+    "lib/"
+  ]
+}
