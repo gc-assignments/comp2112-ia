@@ -140,8 +140,8 @@
   };
 
   /**
-   * Takes in shifted date e.g. [-2, -1, 0, 1, 2, ... 31, 1, 2, ...] 42 items in
-   * total
+   * Takes in shifted date e.g. [-2, -1, 0, 1, 2, ... 31, 32, 33, ...] 42 items
+   * in total
    *
    * Output normalized date e.g. [28, 29, 30, 1, 2, ... 31, 1, 2, ...] 42 items
    * in total
