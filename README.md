@@ -1,6 +1,6 @@
 # Simple Calendar 
 
-An individual assignment for Advanced Client side scripting (comp2015).
+An individual assignment for Advanced Client side scripting (comp2112).
 
 Written in JavaScript
 
