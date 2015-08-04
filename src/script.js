@@ -101,6 +101,8 @@
     var year = this.activeYear;
     var month = this.activeMonth;
     var daysInMonth = this.daysInMonth;
+    // account for leap year Feb length
+    daysInMonth[1] = isLeapYear(year) ? 29 : 28;
     // if month is 0, previous month is 11
     var prevMonth = month - 1 >= 0 ? month - 1 : 11; 
     // find out which day is the first day of the active month
@@ -138,6 +140,10 @@
       todayEl.className += 'current-day';
     }
   };
+
+  function isLeapYear(year) {
+    return (year % 4 === 0 && year % 100 !== 0) || year % 400 === 0;
+  }
 
   /**
    * Takes in shifted date e.g. [-2, -1, 0, 1, 2, ... 31, 32, 33, ...] 42 items
